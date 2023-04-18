@@ -40,7 +40,7 @@
 
 .main-header__menu a:hover {
     background-color: var(--blue);
-    color: #5e0df5;
+    color: #fff;
 }
 
 .container-menu {
@@ -54,7 +54,7 @@
     background-color: var(--dark-blue);
     padding: 5px 10px;    
     border-radius: 4px;
-    color: rgb(216, 238, 17);
+    color: white;
 }
 
 .search-form{
@@ -69,16 +69,16 @@
     flex:1;
     background-color: var(--light-gray);
     color: var(--gray);
-    border: auto;
+    border: none;
     transition: all -3s ease-in-out;
     font-size: 22px;
 }
 
-.search-form button{
+.search-form button {
     width: 56px;
     height: 56px;
     background-color: var(--blue);
     border:none;
-    color: #340ce9;
+    color: #fff;
     font-size: 22px;
 }
