@@ -2,4 +2,6 @@
     width: "80%";
     margin: auto;
     padding: 20px;
-}
+} 
+/*lembrando que só adcionei esse comando no css, pq dentro do arquivo app.component.html tem uma tag div com uma class e esse cabeçalho eu nao quero que ocupe muito as margens*/
+/*para o cabeçalho, nçao vou fazer isso pq quero que ee ocupe toda parte de baixo da pagina*/
