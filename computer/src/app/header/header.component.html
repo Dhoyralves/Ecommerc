@@ -1,16 +1,18 @@
-<header>
-    <h1>
-        <span>Dhoy</span><span>Computers</span>
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">Dhoy</span><span class="main-header__title--orange">Computers</span>
     </h1>
-    <nav>
+    <div class="container-menu">
+    <nav class="main-header__menu">
         <ul>
             <li>
                 <a>Produtos</a>
             </li> <!--para fazer todas tags de uma vez o comando é (li>a)*6, ai se criam todas tags de uma vez-->
             <li>
-                <a>
-                    Carrinho
+                <a>                    
                     <i class="fa-solid fa-cart-shopping"></i>
+                    Carrinho
+                    <span class="badge-arrinho">0</span>
                 </a>
             </li>
             <li>
@@ -27,4 +29,11 @@
             </li>
         </ul>
     </nav>
+    <form class="search-form">
+        <input type="text">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+</div>
 </header>
+<!--esse cabeçalho vai ficar em todas paginas, ele vai se repetir em todas paginas, entao vamos deixar ele no modulo principal,no app.module-->
+<!--para adcionar a biblioteca de icons, vc precisa de uma tag script para colocar no cabeçalho da aplicação, isso dentro do index.html... que é o primeiro arquivo carregado da aplicaçao-->
