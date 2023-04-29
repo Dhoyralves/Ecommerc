@@ -1,6 +1,6 @@
 <section class="product-list">
     <div class="product-list__card" *ngFor="let produto of produtos"> <!--essa diretiva *ngFor é para chamar uma lista, de um produto de muitos produtos... lá de produtos.ts // esse ultimo of produtos é uma propriedade que preciso acrescentar no arquivo component.ts-->
-        <a  routerLink="/produto/{{produto.id}}" class="product-list__link">
+        <a  routerLink="/produtos/{{produto.id}}" class="product-list__link">
             <img [src]="produto.imagem">
             <h2 class="product-list__name">
                 {{ produto.descricao }}
