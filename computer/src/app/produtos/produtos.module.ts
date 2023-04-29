@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     ProdutosRoutingModule, 
-    FormsModule
+    FormsModule // isso é pra trabalhar com o [(ngmodel)]
   ]
 })
 export class ProdutosModule { }

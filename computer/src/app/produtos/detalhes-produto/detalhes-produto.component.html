@@ -1,6 +1,6 @@
 <section class="product__container">
     <div class="product-image__container">
-        <img [src]="produto?.imagem" alt="">
+        <img [src]="produto?.imagem" alt=""> <!--aqui [src] é o data build-->
     </div>
     <div class="product-description__container">
         <h2 class="product__name">{{ produto?.descricao}}</h2>
@@ -8,7 +8,7 @@
         <P> Estoque Disponivel </P>
         <label >
             Quantidade:
-            <input type="number" [(ngModel)] = "quantidade" min="1">
+            <input type="number" [(ngModel)] = "quantidade" min="1"> <!--aqui é um two-way data build, que é o armazenamento dos dados do input, ou armazendo dentro de uma propriedade da classe do meu componente-->
             unidade (s)
         </label>
         <p class="product__avaiability">
