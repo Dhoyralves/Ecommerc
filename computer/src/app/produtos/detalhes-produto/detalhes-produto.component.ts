@@ -22,7 +22,7 @@ export class DetalhesProdutoComponent implements OnInit {
     const routeParams = this.route.snapshot.paramMap; //aqui tras os parametros da rota ou seja da url
     const produtoId = Number(routeParams.get("id")); //sempre converta para number, pq ele tá recebendo uma string no getOne(productId) //  esse get("id") vem do produtos-routing.module com o path: id
     this.produto = this.produtosService.getOne(produtoId); // obtenhaum produto e ele pede o parametro do id que é (produtoId)
-    console.log("c", this.produto)
+    //console.log("===>>", this.produto);
   }
 }
 

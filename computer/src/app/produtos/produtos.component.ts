@@ -19,7 +19,8 @@ export class ProdutosComponent implements OnInit {
  ) { }
 
   ngOnInit (): void {
-    this.produtos = this.produtosService.getAll(); //aqui ele obtem todos produtos
+    this.produtos = this.produtosService.getAll();
+//aqui ele obtem todos produtos
   }
   //apenas com isso a pagina de produtos funcina igual, só que agora pegamos as informações atraves de um serviço... em produção fazemos esss requisições atraves de serviços... quando estamos trablhando com servidores, fazemos as requisições para o backend atraves de um serviço
 
